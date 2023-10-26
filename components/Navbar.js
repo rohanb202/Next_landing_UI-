@@ -17,7 +17,7 @@ export default function Navbar(){
   
   return (
     <div className='fixed z-10 flex content-center justify-between w-full mx-5 font-semibold bg-white md:py-3 md:justify-around text-md'>
-    <Image src={eyeglasses} className='w-12' />
+    <Image alt="eyeglass emoji" src={eyeglasses} className='w-12' />
       <div className='items-center justify-center hidden py-2 space-x-8 md:flex'>
         <div >Emotions</div>
         <div>Manifesto</div>
@@ -28,9 +28,11 @@ export default function Navbar(){
       
       
         <button className='hidden px-4 py-3 text-white bg-black rounded-full md:flex'>Download App</button>
+        <div className='sm:hidden'>
         <Button className='sm:hidden' onClick={toggleDrawer(true)}>
-          <Bars3Icon className='w-10 mx-5 sm:hidden'/>
+          <Bars3Icon className='w-10 mx-5'/>
         </Button>
+
           <Drawer            
             open={state}
             anchor={'right'}
@@ -44,8 +46,9 @@ export default function Navbar(){
               
 
             </div>
-            <button className='px-4 py-3 mx-2 mt-6 text-white bg-black rounded-full '>Download App</button>   
+            <button className='px-4 py-3 mx-2 mt-6 text-white bg-black rounded-full'>Download App</button>   
           </Drawer>
+          </div>
     </div>
   )
 }
