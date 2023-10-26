@@ -18,7 +18,7 @@ export default function Jobs() {
             <hr></hr>
             <div >
                 <div className='relative flex flex-col items-center justify-center m-auto'>
-                    <Image className='w-20' src={eyeglasses}/>
+                    <Image alt="eyeglass emoji" className='w-20' src={eyeglasses}/>
                     <h1 className='text-3xl font-semibold text-yellow-600'>ahead</h1>
                 </div>
                 <div className='flex flex-col items-start justify-center m-10 space-y-10 md:items-center md:flex-row md:space-y-0 md:space-x-7'>

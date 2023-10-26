@@ -28,8 +28,8 @@ export default function Navbar(){
       
       
         <button className='hidden px-4 py-3 text-white bg-black rounded-full md:flex'>Download App</button>
-        <Button className='md:hidden' onClick={toggleDrawer(true)}>
-          <Bars3Icon className='w-10 mx-5 '/>
+        <Button className='sm:hidden' onClick={toggleDrawer(true)}>
+          <Bars3Icon className='w-10 mx-5 sm:hidden'/>
         </Button>
           <Drawer            
             open={state}
