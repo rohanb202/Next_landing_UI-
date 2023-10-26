@@ -33,10 +33,10 @@ export default function TimelineX() {
   return (
     <section className='p-10'>
         <div className='flex flex-col space-y-2'>
-            <h1 className='text-3xl font-semibold'>Wrong with self-improvemnet & how we're fixing it</h1>
-            <h1 className='text-6xl font-bold'>Self-improvemnet. Ugh.</h1>
+            <h1 className='text-sm font-semibold md:text-3xl'>Wrong with self-improvemnet & how we're fixing it</h1>
+            <h1 className='text-3xl font-bold md:text-6xl'>Self-improvemnet. Ugh.</h1>
         </div>
-        <div ref={cont} className='flex flex-col items-start justify-start py-20 mx-40'>           
+        <div ref={cont} className='flex flex-col items-start justify-start py-20 md:mx-40'>           
                 <TimelineItem data-aos="fade" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <TimelineSeparator>
                     <TimelineDot variant="outlined" color="primary" />
@@ -85,14 +85,14 @@ export default function TimelineX() {
                 
 
         </div>
-        <div className='flex content-center justify-center mx-20 my-20 space-x-10'>
-            <div className='w-1/3 text-3xl font-bold'>EQ beats IQ</div>
-            <div className='w-1/3'>People with high emotional
+        <div className='flex flex-col items-center justify-center my-20 space-y-20 md:mx-20 md:space-y-0 md:space-x-10 md:flex-row'>
+            <div className='text-3xl font-bold text-center md:text-left md:w-1/3'>EQ beats IQ</div>
+            <div className='text-lg text-center md:w-1/3 md:text-left'>People with high emotional
             intelligence (EQ) live more fulfilled
             lives. They tend to be happier and
             have healthier relationships.
             </div>
-            <div className='w-1/3'>They are more successful in their
+            <div className='text-lg text-center md:w-1/3 md:text-left'>They are more successful in their
             pursuits and make for inspiring
             leaders. According to science, they
             earn $29k a year.

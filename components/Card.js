@@ -36,7 +36,7 @@ export default function Card({title, description})  {
     return (
         <div
         ref={cardRef}
-        className="max-w-sm overflow-hidden bg-orange-100 rounded-xl"
+        className="overflow-hidden bg-orange-100 h-60 rounded-xl"
       >
         <div className="px-6 py-4">
           <div className="mb-2 text-2xl font-bold">{title}</div>
