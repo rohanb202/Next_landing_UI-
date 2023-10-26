@@ -7,11 +7,16 @@ import TimelineX from '@/components/TimelineX'
 import InnerSec from '@/components/InnerSec'
 import Jobs from '@/components/Jobs'
 import Privacy from '@/components/Privacy'
-
+import Head from 'next/head'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+        <title>Xono</title>
+      </Head>
       <div className='relative flex justify-center overflow-x-hidden '>
+        
         <div className='mx-3 max-w-[100rem] md:mx-10 bg-white'>
           <Navbar/>   
           <Hero/>  
@@ -23,5 +28,6 @@ export default function Home() {
           <Jobs/>
         </div>
       </div>
+      </>
   )
 }
