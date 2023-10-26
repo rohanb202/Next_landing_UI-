@@ -11,15 +11,22 @@
 ul{
     list-style-type: circle;
   }
-body::-webkit-scrollbar {
+.secScroll::-webkit-scrollbar {
     width: 1em;
 }
  
-body::-webkit-scrollbar-track {
+.secScroll::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
  
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
+.secScroll::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+  outline: 0px solid rgb(255, 255, 255);
+}
+@font-face {
+    font-family: pop;
+    src: url('../assets/font/Poppins-Regular.ttf');
+}
+body{
+    font-family: pop, sans-serif;
 }
