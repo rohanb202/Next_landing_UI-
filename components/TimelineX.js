@@ -32,7 +32,7 @@ export default function TimelineX() {
 
   return (
     <section className='p-10'>
-        <div className='flex flex-col space-y-2'>
+        <div data-aos="zoom-out-right" data-aos-duration="500" className='flex flex-col space-y-2'>
             <h1 className='text-sm font-semibold md:text-3xl'>Wrong with self-improvemnet & how we're fixing it</h1>
             <h1 className='text-3xl font-bold md:text-6xl'>Self-improvemnet. Ugh.</h1>
         </div>
@@ -43,8 +43,9 @@ export default function TimelineX() {
                     <TimelineConnector />
                     </TimelineSeparator>
                     <div className="flex flex-col px-6 py-20">
-                        <h1 className="text-3xl font-bold">Hello</h1>
-                       <h1 className="text-xl font-light">Nulla fugiat ad proident aute et culpa proident et do cillum aliquip nisi eiusmod. Minim incididunt non quis esse laborum minim. Elit aliquip ad ullamco aliquip ipsum dolor irure excepteur ex id nostrud velit Lorem ex. Excepteur consectetur dolor velit laboris dolor et deserunt laborum eu enim sunt sit aute mollit. 
+                        <h1 className="text-3xl font-bold">It's not as easy as 1-2-3.</h1>
+                       <h1 className="text-xl font-light">The journey of change may be long, but our sessions are quick. We get
+to the point and tell you what you want to know (and nothing else). 
                        </h1>
                     </div>
                 </TimelineItem>
@@ -54,8 +55,9 @@ export default function TimelineX() {
                     <TimelineConnector />
                     </TimelineSeparator>
                     <div className="flex flex-col px-6 py-20">
-                        <h1 className="text-3xl font-bold">Hello</h1>
-                       <h1 className="text-xl font-light">Nulla fugiat ad proident aute et culpa proident et do cillum aliquip nisi eiusmod. Minim incididunt non quis esse laborum minim. Elit aliquip ad ullamco aliquip ipsum dolor irure excepteur ex id nostrud velit Lorem ex. Excepteur consectetur dolor velit laboris dolor et deserunt laborum eu enim sunt sit aute mollit. 
+                        <h1 className="text-3xl font-bold">Old habits are hard to break.</h1>
+                       <h1 className="text-xl font-light">And bad behaviors die hard. Fortunately, we give you great, science-
+backed techniques to use. 
                        </h1>
                     </div>
                 </TimelineItem>
@@ -65,8 +67,10 @@ export default function TimelineX() {
                     <TimelineConnector />
                     </TimelineSeparator>
                     <div className="flex flex-col px-6 py-20">
-                        <h1 className="text-3xl font-bold">Hello</h1>
-                       <h1 className="text-xl font-light">Nulla fugiat ad proident aute et culpa proident et do cillum aliquip nisi eiusmod. Minim incididunt non quis esse laborum minim. Elit aliquip ad ullamco aliquip ipsum dolor irure excepteur ex id nostrud velit Lorem ex. Excepteur consectetur dolor velit laboris dolor et deserunt laborum eu enim sunt sit aute mollit. 
+                        <h1 className="text-3xl font-bold">You and your motivation don't have a
+long-term relationship.</h1>
+                       <h1 className="text-xl font-light">Luckily, we can proactively prepare you for the marathon, not just the
+race. Effective, memorable exerciseswill help you stick to your goals. 
                        </h1>
                     </div>
                 </TimelineItem >
@@ -76,8 +80,8 @@ export default function TimelineX() {
                     <TimelineConnector />
                     </TimelineSeparator>
                     <div className="flex flex-col px-6 py-20">
-                        <h1 className="text-3xl font-bold">Hello</h1>
-                       <h1 className="text-xl font-light">Nulla fugiat ad proident aute et culpa proident et do cillum aliquip nisi eiusmod. Minim incididunt non quis esse laborum minim. Elit aliquip ad ullamco aliquip ipsum dolor irure excepteur ex id nostrud velit Lorem ex. Excepteur consectetur dolor velit laboris dolor et deserunt laborum eu enim sunt sit aute mollit. 
+                        <h1 className="text-3xl font-bold">Litt em up</h1>
+                       <h1 className="text-xl font-light">Bad behaviors cling tenaciously, but with the power of science-backed strategies, they can be vanquished. 
                        </h1>
                     </div>
                 </TimelineItem>

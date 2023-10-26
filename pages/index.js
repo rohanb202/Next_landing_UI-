@@ -11,7 +11,8 @@ import Privacy from '@/components/Privacy'
 
 export default function Home() {
   return (
-      <div className='mx-3 md:mx-10'>
+      <div className='relative flex justify-center overflow-x-hidden '>
+        <div className='mx-3 max-w-[100rem] md:mx-10 bg-white'>
           <Navbar/>   
           <Hero/>  
           <Carousel/>   
@@ -20,6 +21,7 @@ export default function Home() {
           <Privacy/>
           <InnerSec/>
           <Jobs/>
+        </div>
       </div>
   )
 }

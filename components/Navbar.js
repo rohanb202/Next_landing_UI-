@@ -16,7 +16,7 @@ export default function Navbar(){
   }
   
   return (
-    <div className='flex content-center justify-between my-4 font-semibold md:justify-around text-md'>
+    <div className='flex content-center justify-between mx-5 my-4 font-semibold md:justify-around text-md'>
     <Image src={eyeglasses} className='w-12' />
       <div className='items-center justify-center hidden py-2 space-x-8 md:flex'>
         <div >Emotions</div>

@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function InnerSec() {
   return (
-    <section className='my-6 bg-purple-200 rounded-3xl '>
+    <section className='mx-5 my-6 bg-purple-200 md:mx-10 rounded-3xl '>
         <div className='flex items-center justify-between p-8 text-2xl font-bold md:p-20 md:text-6xl'>
-            <h1>Work with us</h1>
-            <h1 className='text-indigo-600'>ahead</h1>
+            <h1 data-aos="zoom-out-right" data-aos-duration="500" >Work with us</h1>
+            <h1 data-aos="zoom-out" data-aos-duration="500" className='text-indigo-600'>ahead</h1>
         </div>
         <div className='flex flex-col justify-between px-10 py-10 md:flex-row md:px-20 '>
             

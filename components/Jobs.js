@@ -9,7 +9,7 @@ export default function Jobs() {
   return (
     <div className='m-10 md:m-20'>
         <div className='flex flex-col space-y-10'>
-            <h1 className='text-4xl font-bold text-center md:text-left md:text-6xl'>Work with us</h1> 
+            <h1 data-aos="fade-right" data-aos-duration="500" className='text-4xl font-bold text-center md:text-left md:text-6xl'>Work with us</h1> 
             <div className='relative flex flex-col items-center justify-center space-y-10 md:space-y-0 md:space-x-5 md:flex-row'>
                 <Card title="Senior Full Stack Engineer"/>
                 <Card title="Senior Full Stack Engineer"/>
